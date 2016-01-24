@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="son.nguyen">
+      <firstName>Hoang Son</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="a.nguyen">
+      <firstName>Van A</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager>son.nguyen</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="b.nguyen">
+      <firstName>Van B</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager>son.nguyen</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="c.nguyen">
+      <firstName>Van C</firstName>
+      <lastName>Nguyen</lastName>
+      <title>MR</title>
+      <manager>son.nguyen</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="d.nguyen">
+      <firstName>Van D</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager>son.nguyen</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="e.nguyen">
+      <firstName>Van E</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager>phuc.nguyen</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="phuc.nguyen">
+      <firstName>Tan Phuc</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="f.nguyen">
+      <firstName>Van F</firstName>
+      <lastName>Nguyen</lastName>
+      <title>Mr</title>
+      <manager>son.nguyen</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Nhân viên">
+      <displayName>Nhân viên</displayName>
+    </role>
+    <role name="Quản lý">
+      <displayName>Quản lý</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Trung tâm anh ngữ">
+      <displayName>Trung tâm anh ngữ</displayName>
+    </group>
+    <group name="Bộ phận giáo vụ" parentPath="/Trung tâm anh ngữ">
+      <displayName>Bộ phận giáo vụ</displayName>
+    </group>
+    <group name="Bộ phận tài vụ" parentPath="/Trung tâm anh ngữ">
+      <displayName>Bộ phận tài vụ</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>son.nguyen</userName>
+      <roleName>Quản lý</roleName>
+      <groupName>Bộ phận giáo vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>a.nguyen</userName>
+      <roleName>Quản lý</roleName>
+      <groupName>Bộ phận giáo vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>b.nguyen</userName>
+      <roleName>Quản lý</roleName>
+      <groupName>Bộ phận giáo vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>c.nguyen</userName>
+      <roleName>Nhân viên</roleName>
+      <groupName>Bộ phận giáo vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>d.nguyen</userName>
+      <roleName>Nhân viên</roleName>
+      <groupName>Bộ phận giáo vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>e.nguyen</userName>
+      <roleName>Nhân viên</roleName>
+      <groupName>Bộ phận tài vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>phuc.nguyen</userName>
+      <roleName>Quản lý</roleName>
+      <groupName>Bộ phận tài vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+    <membership>
+      <userName>f.nguyen</userName>
+      <roleName>Nhân viên</roleName>
+      <groupName>Bộ phận giáo vụ</groupName>
+      <groupParentPath>/Trung tâm anh ngữ</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
